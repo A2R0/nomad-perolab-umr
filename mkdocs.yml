@@ -1,8 +1,8 @@
-site_name: perolab-umr
+site_name: nomad-perolab-umr
 site_description: Test package
 site_author: Aaron Schüller-Ruhl
 
-repo_url: https://github.com/A2R0/perolab-umr
+repo_url: https://github.com/A2R0/nomad-perolab-umr
 edit_uri: ""
 
 nav:

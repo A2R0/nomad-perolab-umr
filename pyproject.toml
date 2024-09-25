@@ -13,7 +13,7 @@ classifiers = [
     "Programming Language :: Python :: 3.12",
     "License :: OSI Approved :: Apache Software License",
 ]
-name = "perolab-umr"
+name = "nomad-perolab-umr"
 description = "Test package"
 version = "0.1.0"
 readme = "README.md"
@@ -31,7 +31,7 @@ dependencies = [
 ]
 
 [project.urls]
-Repository = "https://github.com/A2R0/perolab-umr"
+Repository = "https://github.com/A2R0/nomad-perolab-umr"
 
 [project.optional-dependencies]
 dev = ["ruff", "pytest", "structlog"]
@@ -77,7 +77,7 @@ select = [
     "UP",
     # isort
     "I",
-    # pylint 
+    # pylint
     "PL",
 ]
 
@@ -92,7 +92,7 @@ dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
 
 # this is entirely optional, you can remove this if you wish to
 [tool.ruff.format]
-# use single quotes for strings.
+# use single quotes for strings.980ab4902357b741a8612327471c71df6445ce0b
 quote-style = "single"
 
 # indent with spaces, rather than tabs.
