@@ -16,17 +16,16 @@ schema_package_entry_point = NewSchemaPackageEntryPoint(
     description='New schema package entry point configuration.',
 )
 
-
-class PerolabSchemaEntryPoint(SchemaPackageEntryPoint):
+class PerolabUMRSchemaPackageEntryPoint(SchemaPackageEntryPoint):
     parameter: int = Field(0, description='Custom configuration parameter')
 
     def load(self):
         from perolab_umr.schema_packages.batch import m_package
-
+        
         return m_package
 
 
-perolab_schema_entry_point = NewSchemaPackageEntryPoint(
+schema_package_entry_point = PerolabUMRSchemaPackageEntryPoint(
     name='Perolab UMR Schemas',
-    description='Perolab Schema package entry point configuration.',
+    description='Schema package for PeroLab Marburg - Schema package entry point configuration.',
 )
